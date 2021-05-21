@@ -10,13 +10,20 @@ public class Enemy2 : MonoBehaviour
     private Rigidbody rb;
     private Vector2 movement;
     GameObject search;
-    int MoveSpeed = 4;
+    int MoveSpeed = 10;
 
 
+
+    //[SerializeField]
+    //private Status statusIndicator;
     void Start()
     {
         rb = this.GetComponent<Rigidbody>();
         stats.Init();
+        //if (statusIndicator != null)
+        //{
+        //    statusIndicator.SetHealth(stats.curHealth, stats.maxHealth);
+        //}
     }
     void Update()
     {
@@ -36,21 +43,21 @@ public class Enemy2 : MonoBehaviour
         //movement = direction;
         transform.LookAt(Player);
 
-        if (Vector3.Distance(transform.position, Player.position) >= 0)
-        {
+        //if (Vector3.Distance(transform.position, Player.position) >= 0)
+        //{
 
-            transform.position += transform.forward * MoveSpeed * Time.deltaTime;
+        //    transform.position += transform.forward * MoveSpeed * Time.deltaTime;
 
-            //if (Vector3.Distance(transform.position, Player.position) <= MaxDist)
-            //{
-            //    PlayerStats enemy = GetComponent<PlayerStats>();
-            //    if (enemy != null)
-            //    {
-            //        enemy.TakeDamage(damage);
-            //    }
-            //}
+        //    //if (Vector3.Distance(transform.position, Player.position) <= MaxDist)
+        //    //{
+        //    //    PlayerStats enemy = GetComponent<PlayerStats>();
+        //    //    if (enemy != null)
+        //    //    {
+        //    //        enemy.TakeDamage(damage);
+        //    //    }
+        //    //}
 
-        }
+        //}
     }
 
 
@@ -82,6 +89,10 @@ public class Enemy2 : MonoBehaviour
         {
             GameMaster.KillEnemy(this);
         }
+        //if (statusIndicator != null)
+        //{
+        //    statusIndicator.SetHealth(stats.curHealth, stats.maxHealth);
+        //}
     }
     void OnCollisionEnter(Collision collision)
     {
@@ -92,7 +103,15 @@ public class Enemy2 : MonoBehaviour
         {
             _player.DamagePlayer(stats.damage);
         }
-    
+        //if (collision.gameObject.tag == "Help")
+        //{
+        //    Destroy(collision.gameObject);
+        //}
+        //if (collision.gameObject.tag == "Wall")
+        //{
+        //    Physics2D.IgnoreCollision(collision.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        //}
+
     }
 
 

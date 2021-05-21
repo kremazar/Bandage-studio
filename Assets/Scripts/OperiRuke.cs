@@ -27,9 +27,7 @@ public class OperiRuke : MonoBehaviour
         {
             operiRuke = false;
             OperiPanel.SetActive(false);
-            Debug.Log("ajde exit");
         }
-        Debug.Log("ajde exit");
     }
 
     void Update()

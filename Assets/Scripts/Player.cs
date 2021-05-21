@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        //stats.Init();
+        stats.Init();
         //if (statusIndicator == null)
         //{
         //    Debug.LogError("NO status indicator on player");

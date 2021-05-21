@@ -7,7 +7,6 @@ public class Shoot : MonoBehaviour
 {
     public int damage = 10;
     public Transform firePoint;
-    public GameObject bulletPrefab;
     public float range = 100f;
     public AudioSource audioData;
     public Camera camera;

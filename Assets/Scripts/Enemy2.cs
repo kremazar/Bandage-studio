@@ -11,32 +11,24 @@ public class Enemy2 : MonoBehaviour
     private Vector2 movement;
     GameObject search;
     int MoveSpeed = 4;
-    int MaxDist = 10;
-    int MinDist = 5;
 
 
-    //[SerializeField]
-    //private Status statusIndicator;
     void Start()
     {
         rb = this.GetComponent<Rigidbody>();
         stats.Init();
-        //if (statusIndicator != null)
-        //{
-        //    statusIndicator.SetHealth(stats.curHealth, stats.maxHealth);
-        //}
     }
     void Update()
     {
 
-        //if (player == null)
-        //{
-        //    search = GameObject.FindGameObjectWithTag("Player");
-        //    if (search != null)
-        //    {
-        //        player = search.transform;
-        //    }
-        //}
+        if (Player == null)
+        {
+            search = GameObject.FindGameObjectWithTag("Player");
+            if (search != null)
+            {
+                Player = search.transform;
+            }
+        }
         //Vector3 direction = player.position - transform.position;
         //float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         ////rb.rotation = angle;
@@ -90,10 +82,6 @@ public class Enemy2 : MonoBehaviour
         {
             GameMaster.KillEnemy(this);
         }
-        //if (statusIndicator != null)
-        //{
-        //    statusIndicator.SetHealth(stats.curHealth, stats.maxHealth);
-        //}
     }
     void OnCollisionEnter(Collision collision)
     {
@@ -102,20 +90,9 @@ public class Enemy2 : MonoBehaviour
 
         if (_player != null)
         {
-            Debug.Log("Tu si picko jedna");
             _player.DamagePlayer(stats.damage);
-            DamageEnemy(1000);
-
         }
-        //if (collision.gameObject.tag == "Help")
-        //{
-        //    Destroy(collision.gameObject);
-        //}
-        //if (collision.gameObject.tag == "Wall")
-        //{
-        //    Physics2D.IgnoreCollision(collision.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
-        //}
-
+    
     }
 
 

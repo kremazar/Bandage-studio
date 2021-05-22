@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/bolnickaSoba.unity
     guid: 4246d4629a079b94aa0800d0854179ef
+  - enabled: 1
+    path: Assets/menu.unity
+    guid: 6ef28022d3d06894da62dffa0088f535
   m_configObjects: {}

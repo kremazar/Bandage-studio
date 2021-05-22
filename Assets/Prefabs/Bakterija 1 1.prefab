@@ -283,7 +283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
-  moveSpeed: 50
+  moveSpeed: 100
   stats:
     maxHealth: 100
     damage: 20

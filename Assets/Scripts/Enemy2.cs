@@ -10,7 +10,7 @@ public class Enemy2 : MonoBehaviour
     private Rigidbody rb;
     private Vector2 movement;
     GameObject search;
-    int MoveSpeed = 10;
+    int MoveSpeed = 100;
 
 
 

@@ -11,6 +11,7 @@ public class Shoot : MonoBehaviour
     public AudioSource audioData;
     public Camera camera;
     public GameObject bullet;
+
     void Start()
     {
         audioData = GetComponent<AudioSource>();
@@ -25,11 +26,14 @@ public class Shoot : MonoBehaviour
     }
     void Shooot()
     {
-        RaycastHit hit;
-        if (Physics.Raycast(camera.transform.position, camera.transform.forward, out hit, range))
+        if (firePoint.gameObject.activeInHierarchy == true)
         {
-            if (hit.transform.tag != "Player")
+            int layerMask = 1 << 8;
+            layerMask = ~layerMask;
+            RaycastHit hit;
+            if (Physics.Raycast(camera.transform.position, camera.transform.forward, out hit, range, layerMask))
             {
+
                 Debug.Log(hit.transform.name);
                 Enemy2 enemy = hit.transform.GetComponent<Enemy2>();
                 if (enemy != null)
@@ -42,6 +46,7 @@ public class Shoot : MonoBehaviour
                 }
                 GameObject Bullet = Instantiate(bullet, hit.point, Quaternion.LookRotation(hit.normal));
                 Destroy(Bullet, 0.1f);
+                audioData.Play();
             }
         }
     }

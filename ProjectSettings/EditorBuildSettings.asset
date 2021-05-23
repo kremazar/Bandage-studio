@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/bolnickaSoba.unity
-    guid: 4246d4629a079b94aa0800d0854179ef
-  - enabled: 1
     path: Assets/menu.unity
     guid: 6ef28022d3d06894da62dffa0088f535
+  - enabled: 1
+    path: Assets/bolnickaSoba1.unity
+    guid: e82b4895905ffba45bfcbda91d3d538b
+  - enabled: 1
+    path: Assets/bolnickaSoba.unity
+    guid: 4246d4629a079b94aa0800d0854179ef
+  - enabled: 0
+    path: Assets/Player.unity
+    guid: 62926017d0e921947b97f0ad31648599
   m_configObjects: {}

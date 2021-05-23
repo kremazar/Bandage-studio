@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class OperiRuke : MonoBehaviour
 {
@@ -36,6 +37,7 @@ public class OperiRuke : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Q))
             {
+                SceneManager.LoadScene("bolnickaSoba1");
                 OperiPanel.SetActive(false);
                 oruzje.SetActive(true);
             }

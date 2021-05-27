@@ -2051,7 +2051,7 @@ PrefabInstance:
     - target: {fileID: -7635826562936255635, guid: 91c785779108af94db70bd46911217c0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7e5bafc6556484745a7ef753c86a457a, type: 2}
+      objectReference: {fileID: 2100000, guid: 296799df65f41a8469d234314948687e, type: 2}
     - target: {fileID: 919132149155446097, guid: 91c785779108af94db70bd46911217c0, type: 3}
       propertyPath: m_Name
       value: Bakterija4
@@ -3826,7 +3826,7 @@ PrefabInstance:
     - target: {fileID: 1924238958669706156, guid: 6aa49a72d6c05ec48aa6b945acf1270e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a3384ef3e2313034f9016ad8a1f3999f, type: 2}
+      objectReference: {fileID: 2100000, guid: 89d6ce828196935429aafedf3cb403cc, type: 2}
     - target: {fileID: 7169615720493349514, guid: 6aa49a72d6c05ec48aa6b945acf1270e, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -3932,6 +3932,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 695597e2fd1938b45b8220ca85fcf689, type: 2}
+    - target: {fileID: 64874102877332314, guid: a1b837996a21bb943a5841f13506e823, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64874102877332314, guid: a1b837996a21bb943a5841f13506e823, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1b837996a21bb943a5841f13506e823, type: 3}
 --- !u!4 &505533899 stripped
@@ -4000,6 +4008,25 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 4f3ff21abf892f74f8a18dd5c962637b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad2e00a29b893684badcf4a95835b385, type: 3}
+--- !u!1 &519313819 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1021918874611438, guid: a1b837996a21bb943a5841f13506e823, type: 3}
+  m_PrefabInstance: {fileID: 505533898}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &519313820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519313819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f44352e46aadbc48b1a3cbd2f0b7b52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OperiPanel: {fileID: 1780697963}
+  oruzje: {fileID: 0}
 --- !u!1 &522665730
 GameObject:
   m_ObjectHideFlags: 0
@@ -4546,7 +4573,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1978016477337658416, guid: c02eb02e0004f6c49bc0996ef4d553c7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.08
+      value: 1.04
       objectReference: {fileID: 0}
     - target: {fileID: 1978016477337658416, guid: c02eb02e0004f6c49bc0996ef4d553c7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4607,6 +4634,18 @@ PrefabInstance:
     - target: {fileID: 1978016478439738354, guid: c02eb02e0004f6c49bc0996ef4d553c7, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1978016478641019993, guid: c02eb02e0004f6c49bc0996ef4d553c7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99969983
+      objectReference: {fileID: 0}
+    - target: {fileID: 1978016478641019993, guid: c02eb02e0004f6c49bc0996ef4d553c7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.02450049
+      objectReference: {fileID: 0}
+    - target: {fileID: 1978016478641019993, guid: c02eb02e0004f6c49bc0996ef4d553c7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 2.808
       objectReference: {fileID: 0}
     - target: {fileID: 1978016478641019996, guid: c02eb02e0004f6c49bc0996ef4d553c7, type: 3}
       propertyPath: m_Layer
@@ -10926,7 +10965,7 @@ PrefabInstance:
     - target: {fileID: -7635826562936255635, guid: 66816ac2a455ade4083dadc2a5f19281, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 07676492892b3b94db0e6599faa520c6, type: 2}
+      objectReference: {fileID: 2100000, guid: e49c257c320f85c44b854b6a5c68946f, type: 2}
     - target: {fileID: 919132149155446097, guid: 66816ac2a455ade4083dadc2a5f19281, type: 3}
       propertyPath: m_Name
       value: Bakterija2
@@ -12407,7 +12446,7 @@ PrefabInstance:
     - target: {fileID: 8424073627695423409, guid: fa0a9129bb376b9499df4016dbd03bf1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 73ee144065b64074badb0c7a1dbb42b6, type: 2}
+      objectReference: {fileID: 2100000, guid: 9703634993e41b04a8bd034463c0666d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa0a9129bb376b9499df4016dbd03bf1, type: 3}
 --- !u!1001 &1664681690
@@ -14360,7 +14399,7 @@ PrefabInstance:
     - target: {fileID: -7635826562936255635, guid: 9f1b83c92e2c4f34488f2d58f87942ad, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a6dbb96b9d112024d000e929e39e7c39, type: 2}
+      objectReference: {fileID: 2100000, guid: a170dc57a289e5e4faee496438a08082, type: 2}
     - target: {fileID: 919132149155446097, guid: 9f1b83c92e2c4f34488f2d58f87942ad, type: 3}
       propertyPath: m_Name
       value: Bakterija3

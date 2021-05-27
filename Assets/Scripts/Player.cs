@@ -9,6 +9,8 @@ public class Player : MonoBehaviour
     {
         public int maxHealth = 100;
 
+        public HPBar healthBar;
+
         private int _curHealth;
         public int curHealth
         {
@@ -17,7 +19,23 @@ public class Player : MonoBehaviour
         }
         public void Init()
         {
+            healthBar.SetMaxHealth(maxHealth);
             curHealth = maxHealth;
+        }
+
+        void TakeDamage(int damage) 
+        {
+            _curHealth -= damage;
+            healthBar.SetHealth(_curHealth);
+        }
+
+        void Update()
+        {
+            if(Input.GetKeyDown(KeyCode.Space))
+            {
+                TakeDamage(20);
+            }
+            //statusIndicator.SetHealth(stats.curHealth, stats.maxHealth);
         }
     }
     public PlayerStats stats = new PlayerStats();

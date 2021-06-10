@@ -15,11 +15,11 @@ C:/Users/x_ana/vjdipri/Bandage-studio-main
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50777
+50809
 Successfully changed project path to: C:/Users/x_ana/vjdipri/Bandage-studio-main
 C:/Users/x_ana/vjdipri/Bandage-studio-main
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.14 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 42.58 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.6f1 (8a2143876886)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,352 +35,120 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002260 seconds.
+Registered in 0.002188 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.66 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 35.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.473 seconds
+- Completed reload, in  1.242 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002078 seconds.
+Registered in 0.001020 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.188 seconds
+- Completed reload, in  1.049 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1295 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 79.5 MB.
-System memory in use after: 79.2 MB.
+Unloading 1292 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.8 MB.
+System memory in use after: 79.4 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1740.
-Total: 3.172300 ms (FindLiveObjects: 0.228200 ms CreateObjectMapping: 0.080400 ms MarkObjects: 2.373500 ms  DeleteObjects: 0.488400 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Abandoned_Asylum/Materials/GR_Glass_Normal.mat
-  artifactKey: Guid(d3610ac5c0567db409fddc6570251f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Abandoned_Asylum/Materials/GR_Glass_Normal.mat using Guid(d3610ac5c0567db409fddc6570251f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889a1d3863367cd3942a12ed885e0d43') in 0.609882 seconds
-  Import took 0.622140 seconds .
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1739.
+Total: 3.140000 ms (FindLiveObjects: 0.368900 ms CreateObjectMapping: 0.160400 ms MarkObjects: 2.110100 ms  DeleteObjects: 0.498300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001588 seconds.
-  path: Assets/Horror Hospital Pack/Models/Doorway/DoorwayNormals.png
-  artifactKey: Guid(733530210e8568b4ab277f069729553f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Hospital Pack/Models/Doorway/DoorwayNormals.png using Guid(733530210e8568b4ab277f069729553f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9718b3530595943f86db6f77c6a9efe') in 0.125463 seconds
-  Import took 0.129810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Abandoned_Asylum/Textures/ChairOffice_Normal.png
-  artifactKey: Guid(fb64ac1db57e32448b853db71644b386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Abandoned_Asylum/Textures/ChairOffice_Normal.png using Guid(fb64ac1db57e32448b853db71644b386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906f61dd620415d79eb30d40d538fc79') in 0.069995 seconds
-  Import took 0.073692 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/CliffNormals.png
-  artifactKey: Guid(e08c295755c0885479ad19f518286ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/CliffNormals.png using Guid(e08c295755c0885479ad19f518286ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4249088100bf66d2edd07eadc568eb28') in 0.026011 seconds
-  Import took 0.030094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanNormals.png
-  artifactKey: Guid(3b5b7be0f2332c24f89a2af018daa62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanNormals.png using Guid(3b5b7be0f2332c24f89a2af018daa62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c693d8893bdde1d4c61ca1e14e3040be') in 0.104297 seconds
-  Import took 0.110339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Abandoned_Asylum/Materials/Bed_Normal.mat
-  artifactKey: Guid(303271024f593114bb811fd2a4da16ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Abandoned_Asylum/Materials/Bed_Normal.mat using Guid(303271024f593114bb811fd2a4da16ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b819829cb7f53680510a2d3cf824259') in 0.060900 seconds
-  Import took 0.065062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/The_Texture_Lab/TL_Prototype_Textures_Pack/Textures/Metal_Textures/Metal_Steel/Base_Metal_Steel_normal.png
-  artifactKey: Guid(c045bcd15741dfa48950006b4f011bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/The_Texture_Lab/TL_Prototype_Textures_Pack/Textures/Metal_Textures/Metal_Steel/Base_Metal_Steel_normal.png using Guid(c045bcd15741dfa48950006b4f011bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616715e1927de3accce2eb10cd97c294') in 0.022713 seconds
-  Import took 0.027158 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidCrouch.fbx
-  artifactKey: Guid(d89ea37480b6d75458aa38843e9688dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidCrouch.fbx using Guid(d89ea37480b6d75458aa38843e9688dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b8cbbb5a5d3d8316ad2ff8127e0de2') in 0.049524 seconds
-  Import took 0.055610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Abandoned_Asylum/Textures/GR_Frame_Normal.png
-  artifactKey: Guid(8b4ec89959dd0ff46923253944149dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Abandoned_Asylum/Textures/GR_Frame_Normal.png using Guid(8b4ec89959dd0ff46923253944149dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd051d04e3fff91c708e9a19fafb3b669') in 0.040966 seconds
-  Import took 0.045375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Abandoned_Asylum/Materials/CurtainsMedic_Normal.mat
-  artifactKey: Guid(f67367e20348b4441ab9688dd58320cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Abandoned_Asylum/Materials/CurtainsMedic_Normal.mat using Guid(f67367e20348b4441ab9688dd58320cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0616305e44a9719bfca0edc6b6e6b6') in 0.054758 seconds
-  Import took 0.059845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/Abandoned_Asylum/Materials/ChairOffice_Normal.mat
-  artifactKey: Guid(364dcd8c883eb6b4691f4c2458a6fae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Abandoned_Asylum/Materials/ChairOffice_Normal.mat using Guid(364dcd8c883eb6b4691f4c2458a6fae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92fc23ffcfb64cc827fdca6592c76fcc') in 0.052767 seconds
-  Import took 0.056464 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidJumpAndFall.fbx
-  artifactKey: Guid(51dd2e4c869794f75a0df7d54b210214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidJumpAndFall.fbx using Guid(51dd2e4c869794f75a0df7d54b210214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97a69e2bbbc676e041fc7e1cec5c2a6') in 0.018237 seconds
-  Import took 0.022787 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Abandoned_Asylum/Textures/Bed_Normal.png
-  artifactKey: Guid(27069a5df96746f448377f5e8d427707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Abandoned_Asylum/Textures/Bed_Normal.png using Guid(27069a5df96746f448377f5e8d427707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8220f850fd5ebeb0d56d33b6e78b4f67') in 0.050512 seconds
-  Import took 0.054504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Abandoned_Asylum/Materials/Elevator_Door_Normal.mat
-  artifactKey: Guid(c3628a139b3f088498d19555c062d9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Abandoned_Asylum/Materials/Elevator_Door_Normal.mat using Guid(c3628a139b3f088498d19555c062d9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6bebf901f7445b96c2455b9d1ba7e9d') in 0.051810 seconds
-  Import took 0.055234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/The_Texture_Lab/TL_Prototype_Textures_Pack/Textures/Nature_Textures/Nature_Sand/Base_Nature_Sand_normal.png
-  artifactKey: Guid(4e0438d806d1c234283aac918d31b31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/The_Texture_Lab/TL_Prototype_Textures_Pack/Textures/Nature_Textures/Nature_Sand/Base_Nature_Sand_normal.png using Guid(4e0438d806d1c234283aac918d31b31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2057a580c496b6dd2f9c24920871df8e') in 0.027757 seconds
-  Import took 0.031632 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/The_Texture_Lab/TL_Prototype_Textures_Pack/Textures/Metal_Textures/Metal_Copper/Base_Metal_Copper_normal.png
-  artifactKey: Guid(6bbb7aff53bf8994086509f4af797bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/The_Texture_Lab/TL_Prototype_Textures_Pack/Textures/Metal_Textures/Metal_Copper/Base_Metal_Copper_normal.png using Guid(6bbb7aff53bf8994086509f4af797bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee8bc79fe5eab74f790a027f52ca1eb') in 0.023554 seconds
-  Import took 0.027895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Abandoned_Asylum/Textures/Heater_Normal.png
-  artifactKey: Guid(be18f8bc8784e4d48b334fc562b703d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Abandoned_Asylum/Textures/Heater_Normal.png using Guid(be18f8bc8784e4d48b334fc562b703d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d83d63d5fba700e785472d7f67bb80') in 0.046383 seconds
-  Import took 0.050651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Abandoned_Asylum/Textures/Elevator_Door_Normal.png
-  artifactKey: Guid(36fba7fa8d7befd47a3448fc8c5155c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Abandoned_Asylum/Textures/Elevator_Door_Normal.png using Guid(36fba7fa8d7befd47a3448fc8c5155c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8a4ec15c7b5684a5151bac19b0e0a8') in 0.041090 seconds
-  Import took 0.044527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/The_Texture_Lab/TL_Prototype_Textures_Pack/Textures/Metal_Textures/Metal_Iron/Base_Metal_Iron_normal.png
-  artifactKey: Guid(6ad833d05989901489f1bd44fe484983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/The_Texture_Lab/TL_Prototype_Textures_Pack/Textures/Metal_Textures/Metal_Iron/Base_Metal_Iron_normal.png using Guid(6ad833d05989901489f1bd44fe484983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b939e18a512dfecbba0c8893a108990') in 0.025934 seconds
-  Import took 0.029880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdle.fbx
-  artifactKey: Guid(dffa50cfe77e0434bbfa71245b3dd529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdle.fbx using Guid(dffa50cfe77e0434bbfa71245b3dd529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86383c425ace99a480355d343b3a9308') in 0.018232 seconds
-  Import took 0.022420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Standard Assets/Effects/GlassRefraction/Textures/GlassStainedNormals.tif
-  artifactKey: Guid(4b8d081e9d114c7f1100f5ab44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/GlassRefraction/Textures/GlassStainedNormals.tif using Guid(4b8d081e9d114c7f1100f5ab44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a2fcc9b94f8a963d6d892f2095270f') in 0.028871 seconds
-  Import took 0.032204 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Abandoned_Asylum/Materials/GR_Frame_Normal.mat
-  artifactKey: Guid(3df388d599e264b48b3811655ab79300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Abandoned_Asylum/Materials/GR_Frame_Normal.mat using Guid(3df388d599e264b48b3811655ab79300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03befe09574a5eecfe4fa86d9b4f4600') in 0.063741 seconds
-  Import took 0.067473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Soja Exiles/Hospital Medical Office Modular/Models/diagnostics.fbx
-  artifactKey: Guid(e8328baf0603fb747b8605e2a1758b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Soja Exiles/Hospital Medical Office Modular/Models/diagnostics.fbx using Guid(e8328baf0603fb747b8605e2a1758b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8425126e8a4d576db5458566fa828559') in 0.923939 seconds
-  Import took 0.928039 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000594 seconds.
-  path: Assets/Sci Fi Gun Light/_textures/GunTwo/GunTwo_Normal.png
-  artifactKey: Guid(ccc8c4c4e95fdcc4c9ae6aae9295360f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci Fi Gun Light/_textures/GunTwo/GunTwo_Normal.png using Guid(ccc8c4c4e95fdcc4c9ae6aae9295360f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e027a9ad399d06992c8cf66cdb7c7fe') in 0.030469 seconds
-  Import took 0.034511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Abandoned_Asylum/Textures/ChairLeather_Normal.png
-  artifactKey: Guid(ec152f7041ff5eb4097919c8503ca8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Abandoned_Asylum/Textures/ChairLeather_Normal.png using Guid(ec152f7041ff5eb4097919c8503ca8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37120ab183135eccfab4537779052e8') in 0.044665 seconds
-  Import took 0.049126 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Abandoned_Asylum/Textures/CurtainsMedic_Normal.png
-  artifactKey: Guid(c44b1058722f72841aae08dfefd508c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Abandoned_Asylum/Textures/CurtainsMedic_Normal.png using Guid(c44b1058722f72841aae08dfefd508c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a31bfb070a668624a2a61f212d5f34c') in 0.041884 seconds
-  Import took 0.045794 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Music/1911-.45-ACP-Close-Single-Gunshot-C-www.fesliyanstudios.com.mp3
-  artifactKey: Guid(1ddb7d7c9b2597e4facfe7d73a1d3ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/1911-.45-ACP-Close-Single-Gunshot-C-www.fesliyanstudios.com.mp3 using Guid(1ddb7d7c9b2597e4facfe7d73a1d3ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcef5fa04f2e1060131182167720c97b') in 0.073474 seconds
-  Import took 0.078162 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Standard Assets/Effects/ImageEffects/Textures/RandomVectors.png
-  artifactKey: Guid(a181ca8e3c62f3e4b8f183f6c586b032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/ImageEffects/Textures/RandomVectors.png using Guid(a181ca8e3c62f3e4b8f183f6c586b032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2238b7c21e707a1c9d287af61cc0f627') in 0.030169 seconds
-  Import took 0.034315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Abandoned_Asylum/Textures/GR_Glass_Normal.png
-  artifactKey: Guid(8cf7b9dcf531da647b55b861aabc6229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Abandoned_Asylum/Textures/GR_Glass_Normal.png using Guid(8cf7b9dcf531da647b55b861aabc6229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cde51bb47fe7346dea3d6da269cbb78') in 0.026120 seconds
-  Import took 0.029855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanOcclusion.png
-  artifactKey: Guid(4e2f32e9a1fefc24092337ae061f3dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanOcclusion.png using Guid(4e2f32e9a1fefc24092337ae061f3dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a128c8ecfd0049790e02f96cf35f70') in 0.049634 seconds
-  Import took 0.053388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Abandoned_Asylum/Materials/ChairLeather_Normal.mat
-  artifactKey: Guid(a660e8048de0a6e488529f97efb403c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Abandoned_Asylum/Materials/ChairLeather_Normal.mat using Guid(a660e8048de0a6e488529f97efb403c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ea7ac0cfb9bd03cff8ba2d62b181fa') in 0.051159 seconds
-  Import took 0.055275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdleJumpUp.fbx
-  artifactKey: Guid(0d9d26e2162aa4d11ab075b34c029673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdleJumpUp.fbx using Guid(0d9d26e2162aa4d11ab075b34c029673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f503ff5be0b47e30aff6d4d626393bcd') in 0.024461 seconds
-  Import took 0.029070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Abandoned_Asylum/Materials/BedFeather_Normal.mat
-  artifactKey: Guid(03707e4b73f72b54485e51973f8c8af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Abandoned_Asylum/Materials/BedFeather_Normal.mat using Guid(03707e4b73f72b54485e51973f8c8af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c4b87b39765f55212e89136f86d8e5') in 0.022815 seconds
-  Import took 0.026139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/AIThirdPersonController.prefab
-  artifactKey: Guid(54eb5844754051b40a918a84c33b7c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/AIThirdPersonController.prefab using Guid(54eb5844754051b40a918a84c33b7c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e06f54a9b5ed2bb575fc671a49bec9') in 0.427321 seconds
-  Import took 0.436475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 95.855640 seconds.
   path: Assets/bolnica horor.unity
   artifactKey: Guid(2dc4f18efb340ec4f9acb22d9f1f68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bolnica horor.unity using Guid(2dc4f18efb340ec4f9acb22d9f1f68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9f61144496f79411a888e7ff16bffe') in 0.009548 seconds
-  Import took 0.013278 seconds .
+Start importing Assets/bolnica horor.unity using Guid(2dc4f18efb340ec4f9acb22d9f1f68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8b63cc21937adb666cc8f710879a8a') in 0.020941 seconds
+  Import took 0.024851 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.012734 seconds.
+  Time since last request: 192.904398 seconds.
   path: Assets/bolnica horor.unity
   artifactKey: Guid(2dc4f18efb340ec4f9acb22d9f1f68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bolnica horor.unity using Guid(2dc4f18efb340ec4f9acb22d9f1f68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9f61144496f79411a888e7ff16bffe') in 0.004378 seconds
-  Import took 0.008550 seconds .
+Start importing Assets/bolnica horor.unity using Guid(2dc4f18efb340ec4f9acb22d9f1f68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0606a367ab195af1eacdf5bb866bea90') in 0.003890 seconds
+  Import took 0.008400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 152.905412 seconds.
+  path: Assets/bolnica horor.unity
+  artifactKey: Guid(2dc4f18efb340ec4f9acb22d9f1f68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bolnica horor.unity using Guid(2dc4f18efb340ec4f9acb22d9f1f68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9397cced2feb202f75bfb75c65abe998') in 0.004902 seconds
+  Import took 0.008744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.965899 seconds.
+  path: Assets/bolnica horor.unity
+  artifactKey: Guid(2dc4f18efb340ec4f9acb22d9f1f68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bolnica horor.unity using Guid(2dc4f18efb340ec4f9acb22d9f1f68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5023b01894c525ec05d7ccf2cab71b') in 0.005002 seconds
+  Import took 0.008758 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001072 seconds.
+Registered in 0.001208 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.079 seconds
+- Completed reload, in  0.949 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1201 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.5 MB.
-System memory in use after: 90.3 MB.
+System memory in use before: 72.9 MB.
+System memory in use after: 72.7 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1789.
-Total: 3.622600 ms (FindLiveObjects: 0.441400 ms CreateObjectMapping: 0.106600 ms MarkObjects: 2.579500 ms  DeleteObjects: 0.492900 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1741.
+Total: 3.206200 ms (FindLiveObjects: 0.225000 ms CreateObjectMapping: 0.051900 ms MarkObjects: 2.427100 ms  DeleteObjects: 0.499600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 141.943132 seconds.
+  path: Assets/bolnica horor.unity
+  artifactKey: Guid(2dc4f18efb340ec4f9acb22d9f1f68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bolnica horor.unity using Guid(2dc4f18efb340ec4f9acb22d9f1f68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd153023892171d49e3d8aa0314fff7ae') in 0.023657 seconds
+  Import took 0.030252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 381.921316 seconds.
+  path: Assets/bolnica horor.unity
+  artifactKey: Guid(2dc4f18efb340ec4f9acb22d9f1f68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bolnica horor.unity using Guid(2dc4f18efb340ec4f9acb22d9f1f68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04a24dc3b7c18218f450c7a00226b82') in 0.039809 seconds
+  Import took 0.044226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 774.426701 seconds.
+  path: Assets/bolnica horor.unity
+  artifactKey: Guid(2dc4f18efb340ec4f9acb22d9f1f68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bolnica horor.unity using Guid(2dc4f18efb340ec4f9acb22d9f1f68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c259a428fec9cf077967d66531027956') in 0.004953 seconds
+  Import took 0.009740 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -9,9 +9,7 @@ public class Player : MonoBehaviour
     {
         public int maxHealth = 100;
 
-        public HPBar healthBar;
-
-        private int _curHealth;
+        public int _curHealth;
         public int curHealth
         {
             get { return _curHealth; }
@@ -19,14 +17,12 @@ public class Player : MonoBehaviour
         }
         public void Init()
         {
-            healthBar.SetMaxHealth(maxHealth);
             curHealth = maxHealth;
         }
 
         void TakeDamage(int damage) 
         {
             _curHealth -= damage;
-            healthBar.SetHealth(_curHealth);
         }
 
         void Update()
@@ -39,14 +35,16 @@ public class Player : MonoBehaviour
         }
     }
     public PlayerStats stats = new PlayerStats();
-    
 
+    public HPBar healthBar;
+    
     //[SerializeField]
     //private Status statusIndicator;
 
     void Start()
     {
         stats.Init();
+        healthBar.SetMaxHealth(stats.maxHealth);
         //if (statusIndicator == null)
         //{
         //    Debug.LogError("NO status indicator on player");
@@ -58,12 +56,15 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
+
+        //hp = stats.curHealth;
         //statusIndicator.SetHealth(stats.curHealth, stats.maxHealth);
     }
 
     public void DamagePlayer(int damage)
     {
         Debug.Log("Hitas ga");
+        healthBar.SetHealth(stats.curHealth);
         stats.curHealth -= damage;
         if (stats.curHealth <= 0)
         {

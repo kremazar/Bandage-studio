@@ -1,4 +1,4 @@
- Shader "Custom/NewShader" {
+Shader "Custom/WallsShader" {
      Properties
      {
          _Color ("Main Color", Color) = (1,1,1,1)

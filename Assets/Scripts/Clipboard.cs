@@ -18,14 +18,6 @@ public class Clipboard : MonoBehaviour
             inside = false;
         }
     }
-    /*private void OnTriggerStay(Collider other) {
-        if(other.CompareTag("Player")) {
-            if (Input.GetKeyDown("e")){
-                ClipboardHands.SetActive(true);
-                ClipboardWorld.SetActive(false);
-            }
-        }
-    }*/
 
     void Update() {
         if(inside) {

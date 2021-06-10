@@ -1481,3 +1481,43 @@ Received Import Request.
 Start importing Assets/Shader/WallsShader.shader using Guid(c476ca4e6d8f1e646a486e45f358e1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac0d806d94f41c1439cb15bedf4ef75') in 0.019142 seconds
   Import took 0.024156 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 41.412831 seconds.
+  path: Assets/Shader/WallsShader.shader
+  artifactKey: Guid(c476ca4e6d8f1e646a486e45f358e1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/WallsShader.shader using Guid(c476ca4e6d8f1e646a486e45f358e1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6f461a76e11c626f603e2f25ebe269') in 0.003909 seconds
+  Import took 0.008720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.208143 seconds.
+  path: Assets/Shader/WallsShader.mat
+  artifactKey: Guid(d98b007c7c3d85d40bd26efdf86cbad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/WallsShader.mat using Guid(d98b007c7c3d85d40bd26efdf86cbad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd285874985281cb531b688646c178663') in 0.047151 seconds
+  Import took 0.052108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.148244 seconds.
+  path: Assets/Abandoned_Asylum/Materials/Sink.mat
+  artifactKey: Guid(fd92ddb1f0c8f3e498993cb5d2527a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned_Asylum/Materials/Sink.mat using Guid(fd92ddb1f0c8f3e498993cb5d2527a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6de413b3939089197901851d0504b1a') in 0.058209 seconds
+  Import took 0.062780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000985 seconds.
+  path: Assets/Abandoned_Asylum/Materials/Sink.mat
+  artifactKey: Guid(fd92ddb1f0c8f3e498993cb5d2527a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned_Asylum/Materials/Sink.mat using Guid(fd92ddb1f0c8f3e498993cb5d2527a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6de413b3939089197901851d0504b1a') in 0.050646 seconds
+  Import took 0.054946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.620865 seconds.
+  path: Assets/Shader/WallsShader.mat
+  artifactKey: Guid(d98b007c7c3d85d40bd26efdf86cbad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/WallsShader.mat using Guid(d98b007c7c3d85d40bd26efdf86cbad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9096dbad7c154b28531b26e3134cad8') in 0.020740 seconds
+  Import took 0.026790 seconds .
+

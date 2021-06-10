@@ -5,6 +5,7 @@ using UnityEngine;
 public class WeaponSwitching : MonoBehaviour
 {
     public int selectedWeapon = 0;
+    public int previousSelectedWeapon;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,31 +19,41 @@ public class WeaponSwitching : MonoBehaviour
     }
 
     void PromjeniOruzja(){
-        int previousSelectedWeapon = selectedWeapon;
-
         if(Input.GetAxis("Mouse ScrollWheel") > 0f){
+            previousSelectedWeapon = selectedWeapon;
             if(selectedWeapon >= transform.childCount - 1)
                 selectedWeapon = 0;
             else
                 selectedWeapon++;
         }
         if(Input.GetAxis("Mouse ScrollWheel") < 0f){
+            previousSelectedWeapon = selectedWeapon;
             if(selectedWeapon <= 0)
                 selectedWeapon = transform.childCount-1;
             else
                 selectedWeapon--;
         }
 
+        if(Input.GetKeyDown("q")){
+            int temp = selectedWeapon;
+            selectedWeapon = previousSelectedWeapon;
+            previousSelectedWeapon = temp;
+        }
+
         if(Input.GetKeyDown(KeyCode.Alpha1)){
+            previousSelectedWeapon = selectedWeapon;
             selectedWeapon = 0;
         }
         if(Input.GetKeyDown(KeyCode.Alpha2) && transform.childCount >= 2){
+            previousSelectedWeapon = selectedWeapon;
             selectedWeapon = 1;
         }
         if(Input.GetKeyDown(KeyCode.Alpha3) && transform.childCount >= 3){
+            previousSelectedWeapon = selectedWeapon;
             selectedWeapon = 2;
         }
         if(Input.GetKeyDown(KeyCode.Alpha4) && transform.childCount >= 4){
+            previousSelectedWeapon = selectedWeapon;
             selectedWeapon = 3;
         }
         if (previousSelectedWeapon != selectedWeapon){
@@ -58,5 +69,9 @@ public class WeaponSwitching : MonoBehaviour
                 weapon.gameObject.SetActive(false);
             i++;
         }
+    }
+
+    void update() {
+        
     }
 }

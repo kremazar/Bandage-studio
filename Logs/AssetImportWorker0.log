@@ -3239,3 +3239,89 @@ Received Import Request.
 Start importing Assets/Hospital Medical Office Modular/Materials/glass 02.mat using Guid(d222f2c0d770b3044956931b076b6ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f19c874c0645d557ec5ab26624aafdf') in 0.250416 seconds
   Import took 0.253676 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 99.137835 seconds.
+  path: Assets/bolnickaSoba 1.unity
+  artifactKey: Guid(44668b021fb13f34dba5a66c8d5c8463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bolnickaSoba 1.unity using Guid(44668b021fb13f34dba5a66c8d5c8463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f9adf1b6a62a918f0b3c43de311625') in 0.002674 seconds
+  Import took 0.005276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.044881 seconds.
+  path: Assets/bolnickaSoba 1.unity
+  artifactKey: Guid(44668b021fb13f34dba5a66c8d5c8463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bolnickaSoba 1.unity using Guid(44668b021fb13f34dba5a66c8d5c8463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8b7c7b2ba415835ab53310b9cec511') in 0.002406 seconds
+  Import took 0.004760 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000860 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.733 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1303 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.7 MB.
+System memory in use after: 84.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1985.
+Total: 2.154200 ms (FindLiveObjects: 0.144500 ms CreateObjectMapping: 0.040300 ms MarkObjects: 1.618100 ms  DeleteObjects: 0.350400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000863 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.762 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1303 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.7 MB.
+System memory in use after: 84.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1987.
+Total: 1.999100 ms (FindLiveObjects: 0.144100 ms CreateObjectMapping: 0.036000 ms MarkObjects: 1.467400 ms  DeleteObjects: 0.350700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2289.555101 seconds.
+  path: Assets/Music/General Nurses Station Skeri Quick.wav
+  artifactKey: Guid(77e18d8a3bb5854489727a17c6fb9e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/General Nurses Station Skeri Quick.wav using Guid(77e18d8a3bb5854489727a17c6fb9e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf10c6ed2b41e5163f3546824d4918f2') in 0.056689 seconds
+  Import took 0.060455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.639465 seconds.
+  path: Assets/bolnickaSoba 1.unity
+  artifactKey: Guid(44668b021fb13f34dba5a66c8d5c8463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bolnickaSoba 1.unity using Guid(44668b021fb13f34dba5a66c8d5c8463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627071786a4ca8a8f4dd76e44a408b37') in 0.002585 seconds
+  Import took 0.005428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.433846 seconds.
+  path: Assets/bolnica horor.unity
+  artifactKey: Guid(2dc4f18efb340ec4f9acb22d9f1f68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bolnica horor.unity using Guid(2dc4f18efb340ec4f9acb22d9f1f68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c9fde1a63df2f2fd913440d64687bd') in 0.002310 seconds
+  Import took 0.004910 seconds .
+

@@ -5,12 +5,36 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwap : MonoBehaviour
 {
-    private void OnTriggerStay(Collider other) {
+
+    public AudioSource playSound;
+
+    [SerializeField] public Fade canvas;
+
+    public bool inside = false;
+    private void OnTriggerEnter(Collider other) {
         if(other.CompareTag("Player")) {
+            inside = true;
+        }
+    }
+    private void OnTriggerExit(Collider other) {
+        if(other.CompareTag("Player")) {
+            inside = false;
+        }
+    }
+
+    void Update() {
+        if(inside) {
             if (Input.GetKeyDown("e")){
-                    SceneManager.LoadScene("bolnickaSoba1");
+                playSound.Play();
+                canvas.FadeMe();
+                if(SceneManager.GetActiveScene().name == "bolnickaSoba 1") {
+                    SceneManager.LoadScene("bolnica horor");
+                }
+                if(SceneManager.GetActiveScene().name == "bolnica horor") {
+                    SceneManager.LoadScene("bolnickaSoba 1");
+                }
             }
         }
-    }   
+    }
 
 }

@@ -12,6 +12,8 @@ public class Shoot : MonoBehaviour
     public Camera camera;
     public GameObject bullet;
 
+    public float m_MaxDistance;
+
     void Start()
     {
         audioData = GetComponent<AudioSource>();
@@ -21,7 +23,6 @@ public class Shoot : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             Shooot();
-
         }
     }
     void Shooot()
@@ -31,7 +32,9 @@ public class Shoot : MonoBehaviour
             int layerMask = 1 << 8;
             layerMask = ~layerMask;
             RaycastHit hit;
-            if (Physics.Raycast(camera.transform.position, camera.transform.forward, out hit, range, layerMask))
+            Vector3 direction = transform.TransformDirection(Vector3.forward);
+
+            if (Physics.Raycast(camera.transform.position, camera.transform.forward, out hit, range, layerMask, QueryTriggerInteraction.Ignore))
             {
 
                 Debug.Log(hit.transform.name);

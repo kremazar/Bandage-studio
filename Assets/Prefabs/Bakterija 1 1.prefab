@@ -213,6 +213,7 @@ GameObject:
   - component: {fileID: 4935626066302693701}
   - component: {fileID: 4935626066302693700}
   - component: {fileID: 4935626066302693703}
+  - component: {fileID: -8562569298318962415}
   m_Layer: 0
   m_Name: Bakterija 1 1
   m_TagString: Untagged
@@ -284,9 +285,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
   moveSpeed: 100
+  en: {fileID: -8562569298318962415}
   stats:
     maxHealth: 100
     damage: 20
+--- !u!95 &-8562569298318962415
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4935626066302693702}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e636c2252269b5f4d825c693946b0375, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7827623044906997515
 GameObject:
   m_ObjectHideFlags: 0

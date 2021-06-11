@@ -48,6 +48,8 @@ public class PlayerController : MonoBehaviour
         if (isRunning){
             if(Stamina > 0) {
                 speed = 10f;
+            } else {
+                speed = 3f;
             }
             Stamina = Mathf.Clamp(Stamina - (StaminaDecreasePerFrame * Time.deltaTime), 0.0f, MaxStamina);
             StaminaRegenTimer = 0.0f;

@@ -10,6 +10,9 @@ public class Enemy : MonoBehaviour
     int MoveSpeed = 4;
     int MaxDist = 10;
     int MinDist = 5;
+
+    [SerializeField]private Animator en = null;
+
     void Update()
     {
         transform.LookAt(Player);

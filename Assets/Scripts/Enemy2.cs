@@ -12,6 +12,8 @@ public class Enemy2 : MonoBehaviour
     GameObject search;
     int MoveSpeed = 100;
 
+    [SerializeField]private Animator en = null;
+
 
 
     //[SerializeField]
@@ -84,11 +86,18 @@ public class Enemy2 : MonoBehaviour
 
     public void DamageEnemy(int damage)
     {
+
         stats.curHealth -= damage;
         if (stats.curHealth <= 0)
         {
-            GameMaster.KillEnemy(this);
+            en.Play("AnimationDeath", 0, 0.0f);
+            if (en.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.5)
+            {
+                GameMaster.KillEnemy(this);
+            }
+            return;
         }
+        en.Play("AnimationDamage", 0, 0.0f);
         //if (statusIndicator != null)
         //{
         //    statusIndicator.SetHealth(stats.curHealth, stats.maxHealth);
@@ -101,6 +110,7 @@ public class Enemy2 : MonoBehaviour
 
         if (_player != null)
         {
+            en.Play("AnimationAttack", 0, 0.0f);
             _player.DamagePlayer(stats.damage);
         }
         //if (collision.gameObject.tag == "Help")

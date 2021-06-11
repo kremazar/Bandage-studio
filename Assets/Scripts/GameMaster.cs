@@ -66,7 +66,7 @@ public class GameMaster : MonoBehaviour
     }
     public static void KillEnemy(Enemy2 enemy)
     {
-        Destroy(enemy.gameObject);
+        Destroy(enemy.gameObject, 3f);
         Score.scoreValue += 10;
     }
 }

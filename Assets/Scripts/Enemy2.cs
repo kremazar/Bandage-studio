@@ -12,12 +12,19 @@ public class Enemy2 : MonoBehaviour
     GameObject search;
     int MoveSpeed = 100;
 
-    [SerializeField]private Animator en = null;
+    [SerializeField] private Animator en = null;
 
 
+    //public float speed;
+    //public float stoppingDistance;
+    //public float retreatDistance;
 
-    //[SerializeField]
-    //private Status statusIndicator;
+    //private float timebtwshot;
+    //public float startTimeBtwShots;
+    //public GameObject[] projectile;
+
+    public float waitTime = 0f;
+
     void Start()
     {
         rb = this.GetComponent<Rigidbody>();
@@ -26,6 +33,9 @@ public class Enemy2 : MonoBehaviour
         //{
         //    statusIndicator.SetHealth(stats.curHealth, stats.maxHealth);
         //}
+        //timebtwshot = startTimeBtwShots;
+        Player = GameObject.FindGameObjectWithTag("Player").transform;
+
     }
     void Update()
     {
@@ -38,28 +48,63 @@ public class Enemy2 : MonoBehaviour
                 Player = search.transform;
             }
         }
-        //Vector3 direction = player.position - transform.position;
-        //float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        ////rb.rotation = angle;
-        //direction.Normalize();
-        //movement = direction;
-        transform.LookAt(Player);
+        ChkEnemyDistRaiseDamage();
+        ////Vector3 direction = player.position - transform.position;
+        ////float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        //////rb.rotation = angle;
+        ////direction.Normalize();
+        ////movement = direction;
+        //transform.LookAt(Player);
 
-        //if (Vector3.Distance(transform.position, Player.position) >= 0)
+        ////if (Vector3.Distance(transform.position, Player.position) >= 0)
+        ////{
+
+        ////    transform.position += transform.forward * MoveSpeed * Time.deltaTime;
+
+        ////    //if (Vector3.Distance(transform.position, Player.position) <= MaxDist)
+        ////    //{
+        ////    //    PlayerStats enemy = GetComponent<PlayerStats>();
+        ////    //    if (enemy != null)
+        ////    //    {
+        ////    //        enemy.TakeDamage(damage);
+        ////    //    }
+        ////    //}
+
+        ////}
+        if (gameObject.name == "Bakterija2(Clone)")
+        {
+            transform.position = Vector3.MoveTowards(transform.position, Player.position, 3 * Time.deltaTime);
+        }
+        //else
         //{
+        //    if (Vector3.Distance(transform.position, Player.position) > stoppingDistance)
+        //    {
+        //        transform.position = Vector3.MoveTowards(transform.position, Player.position, speed * Time.deltaTime);
+        //    }
 
-        //    transform.position += transform.forward * MoveSpeed * Time.deltaTime;
+        //    if (timebtwshot <= 0)
+        //    {
 
-        //    //if (Vector3.Distance(transform.position, Player.position) <= MaxDist)
-        //    //{
-        //    //    PlayerStats enemy = GetComponent<PlayerStats>();
-        //    //    if (enemy != null)
-        //    //    {
-        //    //        enemy.TakeDamage(damage);
-        //    //    }
-        //    //}
-
+        //        foreach (var item in projectile)
+        //        {
+        //            if (gameObject.name == "Bakterija4(Clone)")
+        //            {
+        //                Instantiate(projectile[0], transform.position, Quaternion.identity);
+        //            }
+        //            else if (gameObject.name == "Bakterija5(Clone)")
+        //            {
+        //                Instantiate(projectile[1], transform.position, Quaternion.identity);
+        //            }
+        //        }
+        //        timebtwshot = startTimeBtwShots;
+        //    }
+        //    else
+        //    {
+        //        timebtwshot -= Time.deltaTime;
+        //    }
         //}
+
+
     }
 
 
@@ -103,11 +148,35 @@ public class Enemy2 : MonoBehaviour
         //    statusIndicator.SetHealth(stats.curHealth, stats.maxHealth);
         //}
     }
+    void ChkEnemyDistRaiseDamage()
+    {
+        if (Vector3.Distance(transform.position, Player.position) <= 3)
+        {
+            if (Time.time - waitTime >= 3 && transform.parent.name.StartsWith("Hepatitis"))
+            {
+                stats.damage += 1;
+                Debug.Log("Damage od enemija je porastao na " + stats.damage);
+                waitTime = Time.time;
+                Time.timeScale = 0.2f;
+            }
+        }
+
+        else if (Vector3.Distance(transform.position, Player.position) >= 6 && !(GameObject.Find("Player/GUI/PauseGame").activeSelf))
+        {
+            Time.timeScale = 1.0f;
+        }
+    }
     void OnCollisionEnter(Collision collision)
     {
+
         Debug.Log(collision.collider.name);
         Player _player = collision.collider.GetComponent<Player>();
+        if (gameObject.name == "Bakterija2(Clone)")
+        {
+            _player.DamagePlayer(stats.damage);
+            Destroy(gameObject, 0.5f);
 
+        }
         if (_player != null)
         {
             en.Play("AnimationAttack", 0, 0.0f);
@@ -123,6 +192,7 @@ public class Enemy2 : MonoBehaviour
         //}
 
     }
+
 
 
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(AudioSource))]
 public class Shoot : MonoBehaviour
 {
-    public int damage = 10;
+    public int damage = 100;
     public Transform firePoint;
     public float range = 100f;
     public AudioSource audioData;
@@ -13,7 +13,8 @@ public class Shoot : MonoBehaviour
     public GameObject bullet;
 
     public float m_MaxDistance;
-
+    public ParticleSystem muzzleFlash;
+    public GameObject impactEffect;
     void Start()
     {
         audioData = GetComponent<AudioSource>();
@@ -27,6 +28,8 @@ public class Shoot : MonoBehaviour
     }
     void Shooot()
     {
+        muzzleFlash.Play();
+        audioData.Play();
         if (firePoint.gameObject.activeInHierarchy == true)
         {
             int layerMask = 1 << 8;
@@ -47,9 +50,10 @@ public class Shoot : MonoBehaviour
                 {
                     hit.rigidbody.AddForce(hit.normal);
                 }
+                Debug.Log(enemy.stats.curHealth);
                 GameObject Bullet = Instantiate(bullet, hit.point, Quaternion.LookRotation(hit.normal));
                 Destroy(Bullet, 0.1f);
-                audioData.Play();
+                Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
             }
         }
     }

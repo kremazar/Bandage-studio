@@ -268,8 +268,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.6480736, y: 0.78732413, z: 0.40574384}
+  m_Center: {x: -0.1759632, y: -0.050240606, z: 0.29712808}
 --- !u!114 &6732617426182495636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -284,6 +284,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 3784773923439090344, guid: c02eb02e0004f6c49bc0996ef4d553c7, type: 3}
   moveSpeed: 50
+  en: {fileID: 0}
+  waitTime: 1
   stats:
     maxHealth: 100
     damage: 20
